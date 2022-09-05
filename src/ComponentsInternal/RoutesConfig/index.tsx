@@ -9,6 +9,7 @@ import OptionButtonDocs from '../../Pages/Docs/OptionButton';
 import InputDocs from '../../Pages/Docs/Input';
 import Footer from '../Footer';
 import Sidebar from '../Sidebar';
+import ComponentList from '../../Pages/ComponentsList';
 
 const options = [
 	{
@@ -26,9 +27,16 @@ const options = [
 		subItems: [],
 	},
 	{
+		path: '/componentList',
+		element: <ComponentList />,
+		name: 'ComponentList',
+		index: true,
+		subItems: [],
+	},
+	{
 		path: '/docs/getting-started',
 		element: <GettingStarted />,
-		name: 'Instação',
+		name: 'Instalação',
 		index: true,
 		subItems: [],
 	},

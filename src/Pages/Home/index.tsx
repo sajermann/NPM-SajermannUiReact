@@ -61,7 +61,7 @@ export default function Home() {
 					className={`${styles.blocks} ${
 						darkMode ? styles.dark : styles.light
 					}`}
-					onClick={() => handleGotTo('/docs/button')}
+					onClick={() => handleGotTo('/componentList')}
 				>
 					Componentes {`${'>'}`}
 				</OptionButton>
